@@ -3,9 +3,9 @@ This uses KNN.
 """
 import csv
 import random
-import numpy as np
+import numpy as np#导入数组工具
 from sklearn import neighbors
-from sklearn.cross_validation import StratifiedKFold
+from sklearn.cross_validation import StratifiedKFold# 导入KNN 分类器
 
 def accuracy(Y_predict, Y_test):
     equal = 0
